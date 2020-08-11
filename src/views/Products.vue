@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
       <loading :active.sync="isLoading"></loading>
         <h2>前台產品列表</h2>
         <table class="table">

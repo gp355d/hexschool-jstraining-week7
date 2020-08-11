@@ -1,4 +1,4 @@
 /** vue.config.js */
 module.exports = {
-  publicPath: '/hexschool-jstraining-week6/dist/'
+  publicPath: '/hexschool-jstraining-week7/dist/'
 }

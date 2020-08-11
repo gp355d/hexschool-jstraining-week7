@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+<div class="container d-flex justify-content-center text-center">
         <form class="form-signin" @submit.prevent="signin">
           <h1 class="h3 mb-3 font-weight-normal">請先登入</h1>
           <div class="form-group">
@@ -12,7 +12,7 @@
           </div>
           <button type="submit" class="btn btn-primary">登入</button>
         </form>
-    </div>
+</div>
 </template>
 <script>
 export default {
@@ -44,15 +44,15 @@ export default {
   }
 }
 </script>
-<style lang="css">
-html,
-body {
-  height: 100vh;
-  text-align: center;
-}
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+<style lang="scss">
+// html,
+// body {
+//   height: 100vh;
+//   text-align: center;
+// }
+// body {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
 </style>
